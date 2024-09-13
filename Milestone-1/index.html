@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading"><strong>Mileston 1 Static Resumr Builder</strong></div>
+    <div class="main">
+        <form id="resume">
+            <div class="personal"><strong>Personal info</strong></div>
+            <label for="picture" class="inputname" id="upload">Upload pic</label>
+            <input type="file" name="picture" id="picture" class="pic1" accept="image"><br> <br>
+
+            <label for="name" class="inputname">Name:</label><br>
+            <input type="text" id="name" name="name" required placeholder="Enter your Name"><br><br>
+
+            <label for="email" class="inputname">Email:</label><br>
+            <input type="email" id="email" name="email" required placeholder="Enter your Email"><br><br>
+
+            <label for="phone" class="inputname">Phone Number:</label><br>
+            <input type="tel" id="phone" name="phone" required placeholder="Enter your phone"><br><br>
+
+            <label for="addres" class="inputname">Address:</label><br>
+            <input type="text" id="addres" name="addres" required placeholder="Enter your Address"><br><br>
+
+            <div class="personal"><strong>Skills:</strong></div>
+            <label for="skills" class="inputname">Skills:</label><br>
+            <input type="text" name="skills" id="skills" required><br><br>
+            
+            <div class="personal"><strong>Education:</strong></div>
+            <label for="education" class="inputname">Education:</label><br>
+            <textarea name="education" id="education" required rows="7"></textarea><br><br>
+  
+            <div class="personal"><strong>Experience:</strong></div>
+            <label for="experience" class="inputname">Experience:</label><br>
+            <textarea name="experience" id="experience" required rows="7"></textarea><br><br>
+
+            <input type="submit" class="btn" value="Generate Resume">
+        </form>
+    </div>
+</body>
+</html>
